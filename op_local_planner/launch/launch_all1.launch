@@ -1,0 +1,16 @@
+<launch>
+
+
+ <param name="/use_sim_time" value="false"/>
+ <include file="$(find op_local_planner)/launch/op_common_params.launch"/>
+ <include file="$(find op_local_planner)/launch/op_trajectory_generator.launch"/>
+ <include file="$(find op_local_planner)/launch/op_motion_predictor.launch"/>
+ <include file="$(find op_local_planner)/launch/op_trajectory_evaluator.launch"/>
+ <include file="$(find op_local_planner)/launch/op_behavior_selector.launch"/>
+
+
+
+
+
+      
+</launch>
